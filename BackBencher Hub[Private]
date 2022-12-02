@@ -246,7 +246,7 @@ Tab1Section:NewToggle("auto buy Box Toy Noob", "auto buys Box Toy Noob", functio
 end)
 Tab1Section:NewButton("Buy Box Toy House", "Buys Box Toy House once", function()
     local args = {
-    [1] = "Box Toy House"
+    [1] = "Box Toy  House"
 }
 
 game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
@@ -258,7 +258,7 @@ Tab1Section:NewToggle("auto buy box toy house", "auto buys box toy house once", 
         while _G.on do
             wait()
             local args = {
-                [1] = "Box Toy House"
+                [1] = "Box Toy  House"
             }
             
             game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
